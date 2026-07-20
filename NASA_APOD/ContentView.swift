@@ -19,7 +19,7 @@ struct ContentView: View {
             ProgressView("Loading today's picture...")
           } else if let errorMessage = viewModel.errorMessage {
             Text(errorMessage)
-              .foregroundStyle(.red)
+              .foregroundStyle(.yellow)
           }
           else if let apod = viewModel.apod {
             VStack(alignment: .leading) {
