@@ -1,5 +1,5 @@
 //
-//  APOD.swift
+//  Apod.swift
 //  NASA_APOD
 //
 //  Created by Phanit Pollavith on 7/16/26.
